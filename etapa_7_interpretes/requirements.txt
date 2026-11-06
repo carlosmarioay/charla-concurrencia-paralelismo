@@ -1,0 +1,3 @@
+# Requiere Python >= 3.14 (InterpreterPoolExecutor, PEP 734).
+Flask==3.1.0
+gunicorn==23.0.0
