@@ -1,0 +1,4 @@
+# uvicorn plano (sin [standard]): watchfiles/uvloop no tienen rueda cp315t.
+fastapi==0.*
+uvicorn==0.*
+pydantic==2.*
