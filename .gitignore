@@ -1,0 +1,15 @@
+# Temporales de Office
+~$*
+# Resultados de carga (se regeneran con run_carga.py)
+carga/resultados/*.csv
+!carga/resultados/.gitkeep
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Rust
+target/
+*.so
+# Sistema
+.DS_Store
+Thumbs.db
