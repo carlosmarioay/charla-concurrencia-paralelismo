@@ -1,0 +1,11 @@
+[package]
+name = "rust_cpu"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Fijada 0.22: existe seguro, API estable para slides.
+pyo3 = { version = "0.22.*", features = ["extension-module"] }
