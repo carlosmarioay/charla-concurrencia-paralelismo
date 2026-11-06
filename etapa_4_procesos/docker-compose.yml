@@ -1,0 +1,7 @@
+# 2 procesos x 8 hilos: /cpu corre en paralelo real; cada proceso tiene su memoria.
+# Por eso el contador en memoria se rompe: cada worker cuenta lo suyo.
+services:
+  app:
+    build: .
+    ports:
+      - "5004:5000"
